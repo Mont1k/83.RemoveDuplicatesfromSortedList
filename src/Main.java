@@ -1,5 +1,3 @@
-public class Main {
-    public static void main(String[] args) {
         class Solution {
             public ListNode deleteDuplicates(ListNode head) {
                 if(head == null || head.next == null) return head;
@@ -20,4 +18,3 @@ public class Main {
                 return head;
             }
     }
-}
